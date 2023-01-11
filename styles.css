@@ -28,6 +28,12 @@ a:hover {
     text-decoration: underline;
 }
 
-.footer-a a {
+.a a {
     color: gray;
+}
+
+.search-box {
+    width: 500px; 
+    border: none;
+    margin-top: 5px;
 }
