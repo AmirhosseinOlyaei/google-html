@@ -35,15 +35,6 @@ a:hover {
     color: gray;
 }
 
-.search-box {
-    height: 34px;
-    font-size: 16px;
-    background-color: transparent;
-    border: none;
-    color: #6d6f70;
-    width: 480px;
-}
-
 .profile-image {
     border-radius: 50%;
 }
@@ -66,13 +57,23 @@ a:hover {
 }
 
 .search-area {
-    border-style:solid;
+    border-style: solid;
     border-color: #f1f1f1;
-    width: 580px;
     border-radius: 25px;
     margin: auto;
     padding: 2px;
     margin-bottom: 2vw;
+    width: auto;
+    max-width: 584px;
+}
+
+.search-box {
+    height: 34px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: #6d6f70;
+    width: 480px;
 }
 
 .search-icon {
@@ -88,3 +89,25 @@ a:hover {
     vertical-align: middle;
 }
 
+.button-style {
+    background-color: #f7f7f7ba;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #4b4a4a;
+    font-size: 14px;
+    margin: 7px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-style:hover {
+    border: 1px solid #dddcdc;
+}
+.search-area:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
