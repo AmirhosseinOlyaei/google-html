@@ -98,17 +98,12 @@ a:hover {
 #button-style {
     background-color: #f7f7f7ba;
     border: 1px solid #ffffff;
-    border-radius: 4px;
+    border-radius: 5px;
     color: #4b4a4a;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin: 7px 4px;
     padding: 0 16px;
-    line-height: 27px;
     height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
 }
 
 #button-style:hover {
