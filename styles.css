@@ -127,17 +127,10 @@ a:hover {
 }
 
 #nav-bar #left {
-    vertical-align: middle;
-    align-items: center;
-    display: flex;
-    line-height: normal;
+    margin: 0px;
 }
 
 #nav-bar #right {
-    vertical-align: middle;
-    align-items: center;
-    display: flex;
-    line-height: normal;
     margin: 5px;
 }
 
