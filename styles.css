@@ -7,6 +7,14 @@ body {
 
 }
 
+<<<<<<< HEAD
+=======
+#logo-position {
+    display: flex;
+    justify-content:center;
+}
+
+>>>>>>> feature/css-styling
 #logo {
     height: 92px;
     margin-top: 10vw;
@@ -58,6 +66,11 @@ a:hover {
 }
 
 #search-area {
+<<<<<<< HEAD
+=======
+    display:flex;
+    justify-content: space-between;
+>>>>>>> feature/css-styling
     border-style: solid;
     border-color: #f1f1f1;
     border-radius: 25px;
@@ -116,4 +129,24 @@ a:hover {
 
 #search-box:focus {
     outline: none;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+/* Nav Bar Layout */
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bar #left {
+    margin: 0px;
+}
+
+#nav-bar #right {
+    margin: 5px;
+}
+
+>>>>>>> feature/css-styling
