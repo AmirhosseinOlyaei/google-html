@@ -17,6 +17,13 @@ body {
     margin-bottom: 1.5vw;
 }
 
+/* Nav Bar Layout */
+.bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
 footer {
     background-color: #f1f1f1;
     position: fixed;
@@ -116,19 +123,4 @@ a:hover {
 
 #search-box:focus {
     outline: none;
-}
-
-
-/* Nav Bar Layout */
-#nav-bar {
-    display: flex;
-    justify-content: space-between;
-}
-
-#nav-bar #left {
-    margin: 0px;
-}
-
-#nav-bar #right {
-    margin: 5px;
 }
