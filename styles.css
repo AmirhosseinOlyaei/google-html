@@ -1,5 +1,5 @@
 body {
-    font: 13px/27px Roboto, Arial, sans-serif;
+    font: 0.8125rem/1.6875rem Roboto, Arial, sans-serif;
 }
 
 #place-items-center {
@@ -12,7 +12,7 @@ body {
 }
 
 #logo {
-    height: 92px;
+    height: 5.75rem;
     margin-top: 10vw;
     margin-bottom: 1.5vw;
 }
