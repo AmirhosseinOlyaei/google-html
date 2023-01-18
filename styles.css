@@ -19,24 +19,6 @@ body {
 .bar {
     display: flex;
     justify-content: space-between;
-
-}
-
-.left {
-    vertical-align: middle;
-    align-items: center;
-    display: flex;
-    line-height: normal;
-    justify-content: flex-start;
-}
-
-.right {
-    vertical-align: middle;
-    align-items: center;
-    display: flex;
-    line-height: normal;
-    padding: 0 4px;
-    justify-content: flex-end;
 }
 
 a {
